@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ilane R. - Auteure</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      font-style: italic;
+      background-image: url('https://files.catbox.moe/qqyg1j.png'); /* fond fille forêt sombre */
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      padding: 40px;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      color: #ff4b5c;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+
+    .decor {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .decor img {
+      width: 80px;
+      margin: 10px;
+    }
+
+    .follow {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .follow a {
+      background-color: #ff4b5c;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .follow a:hover {
+      background-color: #e63946;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <h1>Ilane R.</h1>
+      <p>Bienvenue sur mon univers d'écriture suivez avec moi des aventures ou la morale est remise en question</p>
+    </header>
+
+    <div class="decor">
+      <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="Crayon">
+      <img src="https://cdn-icons-png.flaticon.com/512/685/685655.png" alt="Cahier">
+    </div>
+
+    <div class="follow">
+      <a href="https://instagram.com/ilane_kg" target="_blank">Me suivre : @ilane_kg</a>
+    </div>
+  </div>
+</body>
+</html>
